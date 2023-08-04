@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana;
+  margin: 20px;
+}
+
+table {
+  margin: 50px auto;
+  font-size: 20px;
+}
+
+/* TABLE-1 */
+
+.table-1 {
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.table-1 th {
+  background: #fec107;
+  border: 2px solid #fec107;
+  padding: 17px 70px;
+}
+
+.table-1 td {
+  background: #3b2b6c;
+  color: white;
+  border: 2px solid #fec107;
+  padding: 15px;
+}
+
+.table-1 .yellow-dark {
+  background: #e5ae30;
+}
+
+/* TABLE-2 */
+
+.table-2 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.table-2 th, .table-2 td {
+  padding: 10px 15px;
+  text-align: justify;
+}
+
+.table-2 th {
+  background: #86006f;
+}
+
+.table-2 tr:nth-of-type(odd) {
+  background: #f37ecf;
+}
+
+.table-2 tr:nth-of-type(even) {
+  background: #ae5693;
+}
+
+/* TABLE-3 */
+
+.table-3 {
+  border-collapse: collapse;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.table-3 th, .table-3 td {
+  border: 3px solid black;
+  padding: 8px 80px 8px 5px;
+  text-align: justify;
+}
+
+.table-3 .orange {
+  background: #fea500;
+}
+
+.table-3 .blue {
+  background: #4e4fff;
+}
+
+.table-3 .green {
+  background: #1bbd3f;
+}
+
+.table-3 .orange, .blue, .green {
+  color: white;
+}
+
+/* CHESS */
+
+.chess {
+  border-spacing: 20px;
+}
+
+.chess div {
+  width: 40px;
+  height: 40px;
+  background: rgb(255, 0, 0);
+}
+
+.chess td {
+  padding: 35px;
+  border: 5px solid #2cd64d;
+  background: #f05712;
+}
+
+.chess tr:nth-child(2n) td:nth-child(2n),
+.chess tr:nth-child(2n + 1) td:nth-child(2n + 1) {
+    background: #2cd64d;
+    border-color: #f05712;
+}
+
+.chess tr:nth-child(2n) td:nth-child(2n + 1) div,
+.chess tr:nth-child(2n + 1) td:nth-child(2n) div {
+    background: #2cd64d;
+}
+
+.chess tr:nth-child(2n) td:nth-child(2n) div,
+.chess tr:nth-child(2n + 1) td:nth-child(2n + 1) div {
+    background: #f05712;
+}
